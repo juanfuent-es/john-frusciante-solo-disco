@@ -1,50 +1,20 @@
-# Prompt maestro · Información estructurada
+# Prompt
 
-Este archivo contiene una instrucción base para utilizar IA como apoyo
-en la investigación, organización y transformación de información.
+Quiero generar un documento digital de la discografía en solista de John Frusciante.
+Necesito que me generes un documento markdown desde su primer a último álbum ordenados en descendente cronológico.
+Responde en esta estructura de información para cada álbum:
 
-La idea no es pedir directamente una página terminada.
-
-El flujo de trabajo es:
-
-```text
-INFORMACIÓN
-↓
-MARKDOWN
-↓
-HTML SEMÁNTICO
-↓
-CSS
-```
-
----
-
-# Prompt base
-
-Quiero construir un documento digital sobre:
-
-**[TEMA]**
-
-Necesito organizar información sobre:
-
-**[TIPO DE CONTENIDO O COLECCIÓN]**
-
-Antes de generar HTML, investiga y estructura la información.
-
-## Objetivo
-
-Construye un documento de información estructurada que pueda utilizarse
-posteriormente para generar una página web.
 
 ## Estructura
 
 Cada elemento debe incluir los siguientes campos:
 
-- [CAMPO 1]
-- [CAMPO 2]
-- [CAMPO 3]
-- [CAMPO 4]
-- [CAMPO 5]
+Foto de portada (Dame una imagen de ancho mínimo de 1024px de ancho)
+- Título
+-  Recomendación de escucha
+- Fecha de publicación
+- Lista de tracks con duración y link a spotify
+- Reseña Breve descripción del estado físico y emocional del artista
 
 Todos los elementos deben mantener exactamente la misma estructura.
 
